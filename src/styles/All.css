@@ -1,0 +1,74 @@
+.All {
+  text-align: center;
+}
+
+.all-container {
+  margin: 0 auto;
+  width: 80%;
+  border: 1px solid #333;
+  padding: 10px 0 20px 30px;
+  border-radius: 5px;
+  margin-bottom: 50px;
+  text-align: left;
+}
+
+.all-container > div:not(:last-child) {
+  border-bottom: 1px solid #ddd; /* 나누는 선 스타일 정의 */
+  padding-bottom: 10px; /* 각 내용 아래에 여백 추가 (선을 내용에서 좀 떨어뜨리기 위함) */
+}
+
+.form-wrapper {
+  width: 60%;
+  margin: 0 auto;
+}
+
+.title-input {
+  width: 450px;
+  height: 40px;
+  margin-bottom: 10px;
+}
+
+.submit-button {
+  text-align: center;
+  margin: 10px;
+  outline: none;
+  width: var(--btn-w);
+  color: var(--primary);
+  border-radius: 5em;
+  text-transform: uppercase;
+  font-size: 1.3em;
+  line-height: 2em;
+  cursor: pointer;
+  background-color: #fbf4ea;
+}
+
+.registBtn {
+  text-align: center;
+  margin-left: 65%;
+  margin-bottom: 2%;
+  outline: none;
+  width: var(--btn-w);
+  color: var(--primary);
+  border-radius: 5em;
+  text-transform: uppercase;
+  font-size: 1.3em;
+  line-height: 2em;
+  cursor: pointer;
+  background-color: #fbf4ea;
+}
+
+.registBtnText {
+  font-size: 16px;
+  margin: 30px;
+  color: black;
+}
+
+.submit-text {
+  font-size: 16px;
+  margin: 30px;
+  color: black;
+}
+
+.ck.ck-editor__editable:not(.ck-editor__nested-editable) {
+  min-height: 400px;
+}

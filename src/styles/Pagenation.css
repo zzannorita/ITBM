@@ -1,0 +1,40 @@
+.pagination {
+  display: flex;
+  justify-content: center;
+  list-style: none;
+  padding: 0;
+}
+
+/* 페이지네이션 아이템 */
+.pagination li {
+  display: inline-block;
+  margin: 0 5px;
+  margin-bottom: 50px;
+}
+
+/* 활성 페이지 스타일 */
+.pagination .active a {
+  background-color: #fbf4ea;
+  color: black;
+}
+
+/* 이전/다음 버튼 스타일 */
+.pagination .prev,
+.pagination .next {
+  margin-right: 5px;
+}
+
+/* 페이지 번호 링크 스타일 */
+.pagination a {
+  color: black;
+  text-decoration: none;
+  display: block;
+  padding: 8px 12px;
+  border: 1px solid black;
+  border-radius: 4px;
+}
+
+/* 페이지 번호 링크 호버 스타일 */
+.pagination a:hover {
+  background-color: #fbf4ea;
+}

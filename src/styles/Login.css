@@ -1,0 +1,38 @@
+.wrapper {
+  text-align: center;
+}
+
+.text {
+  text-align: left;
+  margin-left: 25%;
+  margin-bottom: 1%;
+}
+
+.textBox {
+  width: 50%;
+  padding: 8px;
+  margin-bottom: 12px;
+}
+
+.btn {
+  text-align: center;
+  padding: 10px;
+  margin: 8px;
+  cursor: pointer;
+  background-color: #fbf4ea;
+  color: var(--primary);
+  border-radius: 5px;
+}
+
+.btn:hover {
+  background-color: #e0ca9e;
+  color: white;
+}
+
+.userSection {
+  margin-top: 20px;
+}
+
+.userLabel {
+  font-weight: bold;
+}

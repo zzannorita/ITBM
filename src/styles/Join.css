@@ -1,0 +1,45 @@
+.wrapper {
+  text-align: center;
+}
+
+.form {
+  text-align: left;
+  margin-left: 25%;
+}
+
+.inputContainer {
+  margin-bottom: 12px;
+  margin-left: 8%;
+}
+
+.inputField {
+  width: 50%;
+  padding: 8px;
+}
+
+.button {
+  text-align: center;
+  padding: 10px;
+  margin: 8px;
+  cursor: pointer;
+  background-color: #fbf4ea;
+  color: var(--primary);
+  border-radius: 5px;
+}
+
+.button:hover {
+  background-color: #e0ca9e;
+  color: white;
+}
+
+.inputField.error {
+  border-color: red;
+}
+
+.errorText {
+  color: red;
+  margin-top: 5px;
+  text-align: left;
+  margin-left: 25%;
+  margin-bottom: 1%;
+}
